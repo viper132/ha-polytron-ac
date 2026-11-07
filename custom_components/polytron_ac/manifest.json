@@ -1,10 +1,10 @@
 {
   "domain": "polytron_ac",
   "name": "Polytron Smart AC",
-  "codeowners": ["@hugomulana"],
+  "codeowners": ["@viper132"],
   "config_flow": true,
-  "documentation": "https://github.com/hugomulana/ha-polytron-ac",
-  "issue_tracker": "https://github.com/hugomulana/ha-polytron-ac/issues",
+  "documentation": "https://github.com/viper132/ha-polytron-ac",
+  "issue_tracker": "https://github.com/viper132/ha-polytron-ac/issues",
   "integration_type": "hub",
   "iot_class": "cloud_polling",
   "version": "1.0.0"
