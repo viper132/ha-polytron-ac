@@ -1,0 +1,28 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect Polytron Smart AC",
+        "description": "Enter the phone/WhatsApp number registered with your Polytron Smart Home app. An OTP code will be sent via WhatsApp.",
+        "data": {
+          "username": "Phone / WhatsApp Number (e.g. 08123456789)"
+        }
+      },
+      "otp": {
+        "title": "WhatsApp OTP Verification",
+        "description": "An OTP code has been sent to WhatsApp number **{phone}**. Enter the 6-digit verification code below.",
+        "data": {
+          "otp_code": "OTP Code (6 digits)"
+        }
+      }
+    },
+    "error": {
+      "invalid_otp": "Invalid or expired OTP code. Please try again.",
+      "otp_send_failed": "Failed to send OTP to this number. Make sure the number is registered.",
+      "cannot_connect": "Failed to connect to Polytron IoT cloud. Check your internet connection."
+    },
+    "abort": {
+      "already_configured": "This Polytron account is already configured."
+    }
+  }
+}

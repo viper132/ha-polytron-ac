@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+token.json
+polytron_auth.json
+*.log

@@ -1,0 +1,28 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Hubungkan Polytron Smart AC",
+        "description": "Masukkan nomor telepon / WhatsApp yang terdaftar pada aplikasi Polytron Smart Home. Kode OTP akan dikirimkan melalui WhatsApp.",
+        "data": {
+          "username": "Nomor Telepon / WhatsApp (cth: 08123456789)"
+        }
+      },
+      "otp": {
+        "title": "Verifikasi Kode OTP WhatsApp",
+        "description": "Kode OTP telah dikirimkan ke WhatsApp nomor **{phone}**. Masukkan 6 digit kode OTP di bawah ini.",
+        "data": {
+          "otp_code": "Kode OTP (6 digit)"
+        }
+      }
+    },
+    "error": {
+      "invalid_otp": "Kode OTP salah atau telah kadaluarsa. Silakan coba lagi.",
+      "otp_send_failed": "Gagal mengirimkan OTP ke nomor tersebut. Pastikan nomor terdaftar di akun Polytron.",
+      "cannot_connect": "Gagal terhubung ke server Polytron IoT. Periksa koneksi internet Anda."
+    },
+    "abort": {
+      "already_configured": "Akun Polytron ini sudah terhubung di Home Assistant."
+    }
+  }
+}
